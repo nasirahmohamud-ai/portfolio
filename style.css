@@ -326,17 +326,14 @@ nav ul li a:hover{
     justify-content: flex-start;
     padding-top: 70px;
 }
-
 .project{
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
     gap: 60px;
-
     max-width: 1200px;
     width: 100%;
-
-    margin-top: 0;
+    margin: 0 auto;
 }
 .projects h2{
 
@@ -704,7 +701,6 @@ nav ul li a{
 
 .welcome,
 .hero,
-.projects,
 .contact{
     min-height: 100vh;
     display: flex;
