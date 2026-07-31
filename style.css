@@ -329,17 +329,15 @@ nav ul li a:hover{
 
 .project{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 60px;
 
     max-width: 1200px;
     width: 100%;
-}
-.project{
-    margin-top: -40px;
-}
 
+    margin-top: 0;
+}
 .projects h2{
 
     text-align: center;
@@ -369,9 +367,9 @@ nav ul li a:hover{
 }
 
 .project-image img{
-    width: 520px;
-    height: 440px;   /* Taller like the screenshot */
-    object-fit: contain;  /* Shows the whole image */
+    width: 500px;
+    height: 360px;
+    object-fit: contain;
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0,0,0,.35);
     transition: .3s;
